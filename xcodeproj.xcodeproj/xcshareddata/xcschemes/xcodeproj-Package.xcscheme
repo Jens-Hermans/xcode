@@ -76,34 +76,6 @@
                ReferencedContainer = "container:xcodeproj.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "xcodeproj::xcodeprojprotocols"
-               BuildableName = "xcodeprojprotocols.framework"
-               BlueprintName = "xcodeprojprotocols"
-               ReferencedContainer = "container:xcodeproj.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "xcodeproj::xcodeprojextensions"
-               BuildableName = "xcodeprojextensions.framework"
-               BlueprintName = "xcodeprojextensions"
-               ReferencedContainer = "container:xcodeproj.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -113,6 +85,16 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "xcodeproj::xcodeprojTests"
+               BuildableName = "xcodeprojTests.xctest"
+               BlueprintName = "xcodeprojTests"
+               ReferencedContainer = "container:xcodeproj.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <AdditionalOptions>
       </AdditionalOptions>

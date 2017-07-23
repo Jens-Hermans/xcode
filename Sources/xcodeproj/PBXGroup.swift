@@ -1,6 +1,5 @@
 import Foundation
 import Unbox
-import xcodeprojextensions
 
 public struct PBXGroup {
     

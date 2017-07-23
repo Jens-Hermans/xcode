@@ -1,6 +1,5 @@
 import Foundation
 import Unbox
-import xcodeprojextensions
 
 // This is the element for a build target that produces a binary content (application or library).
 public struct PBXProject: ProjectElement, PlistSerializable {

@@ -1,8 +1,6 @@
 import Foundation
 import Unbox
 import PathKit
-import xcodeprojprotocols
-import xcodeprojextensions
 
 /// It represents a .pbxproj file
 public struct PBXProj {

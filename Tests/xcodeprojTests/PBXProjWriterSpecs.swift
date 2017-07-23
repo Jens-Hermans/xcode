@@ -1,6 +1,5 @@
 import Foundation
 import XCTest
-import xcodeprojextensions
 
 @testable import xcodeproj
 

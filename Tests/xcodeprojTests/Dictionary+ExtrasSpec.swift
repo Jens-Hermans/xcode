@@ -2,7 +2,7 @@ import Foundation
 import Spectre
 import PathKit
 import XCTest
-import xcodeprojextensions
+import xcodeproj
 
 class DictionaryExtrasSpec: XCTestCase {
     

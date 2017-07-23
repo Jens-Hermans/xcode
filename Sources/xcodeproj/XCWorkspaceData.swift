@@ -2,7 +2,6 @@ import Foundation
 import Unbox
 import PathKit
 import AEXML
-import xcodeprojprotocols
 
 // MARK: - XCWorkspace model
 public extension XCWorkspace {

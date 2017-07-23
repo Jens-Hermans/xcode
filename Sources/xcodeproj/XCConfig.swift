@@ -1,6 +1,5 @@
 import Foundation
 import PathKit
-import xcodeprojprotocols
 
 public typealias XCConfigInclude = (include: Path, config: XCConfig)
 

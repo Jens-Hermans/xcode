@@ -1,6 +1,5 @@
 import Foundation
 import Unbox
-import xcodeprojextensions
 
 // This is the element for the copy file build phase.
 public struct PBXCopyFilesBuildPhase {

@@ -1,5 +1,4 @@
 import Foundation
-import xcodeprojextensions
 
 public enum PBXObject {
     

@@ -12,25 +12,11 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "xcodeprojextensions",
-            dependencies: [],
-            path: "Sources/xcodeprojextensions"),
-        .target(
-            name: "xcodeprojprotocols",
-            dependencies: ["xcodeprojextensions"],
-            path: "Sources/xcodeprojprotocols"),
-        .target(
             name: "xcodeproj",
-            dependencies: ["xcodeprojextensions",
-                          "xcodeprojprotocols",
-                          "Unbox",
+            dependencies: ["Unbox",
                           "PathKit",
                           "AEXML"],
             path: "Sources/xcodeproj"),
-        .testTarget(
-            name: "xcodeprojextensionsTests",
-            dependencies: ["xcodeprojextensions"],
-            path: "Tests/xcodeprojextensionsTests"),
         .testTarget(
             name: "xcodeprojTests",
             dependencies: ["xcodeproj"],
