@@ -1,0 +1,5 @@
+name: xcodeproj
+description: Read, update, and write Xcode projects from Swift.
+tags: [swift, xcode, xcodeproj, xcworkspace]
+reference: https://tuist.github.io/xcodeproj/
+license: MIT
